@@ -1,0 +1,16 @@
+/**********************************************************
+ * Copyright ⓒ 2018 Baik All Rights Reserved.            *
+ *                                                        *
+ *                                                        *
+ * File Name : ./.sequelizerc                             *
+ * File Description : sequelize cli cofing                *
+ **********************************************************
+ * Author      * Date       * Revision     * Description  *
+ * atropos0116   2018.08.22   1.0            First draft  *
+ **********************************************************/
+var path = require('path');
+
+module.exports = {
+    'config' : path.resolve('config', 'sequelize.json'),
+    'models-path': path.resolve('server', 'models')
+}

@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "1234",
+    "database": "js-project",
+    "host": "192.168.99.100",
+    "port": "32768",
+    "dialect": "mysql",
+    "pool": {
+    	"max": 5,
+    	"min": 0,
+    	"idle": 10000
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": 1234,
+    "database": "js-project",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": 1234,
+    "database": "js-project",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
