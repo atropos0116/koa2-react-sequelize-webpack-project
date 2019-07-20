@@ -14,9 +14,9 @@ const { query } = require('./util/db');
 
 const eventLog = function( err , sqlFile, index ) {
   if( err ) {
-    console.log(`[ERROR] sql script file: ${sqlFile} 第${index + 1}script file execution failed o(╯□╰)o ！`)
+    console.log(`[ERROR] sql script file: ${sqlFile} ${index + 1}script file execution failed o(╯□╰)o ！`)
   } else {
-    console.log(`[SUCCESS] sql script file: ${sqlFile} 第${index + 1}script file execution successed O(∩_∩)O !`)
+    console.log(`[SUCCESS] sql script file: ${sqlFile} ${index + 1}script file execution successed O(∩_∩)O !`)
   }
 }
 
